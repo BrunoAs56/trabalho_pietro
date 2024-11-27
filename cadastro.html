@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de cadastro para acesso</title>
+    <link rel="stylesheet" href="css/estiloscad.css">
+    <img src="img/numismatica.png" alt="Imagem logo" width="500" height="150" class="logo"> 
+    <script src="js/javinha.js"></script>
+</head>
+<body class="body">
+    <form action="#" method="POST" class="forms">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" required><br><br>
+        
+        <label for="numero">Número para Contato:</label><br>
+        <input type="tel" id="numero" name="numero" required><br><br>
+        
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="sexo">Sexo:</label><br>
+        <input type="radio" id="homem" name="sexo" value="homem">
+        <label for="homem">Homem</label><br>
+        <input type="radio" id="mulher" name="sexo" value="mulher">
+        <label for="mulher">Mulher</label><br><br>
+        
+        <label for="estado">Estado:</label><br>
+        <input type="text" id="estado" name="estado" required><br><br>
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade" required><br><br>
+        
+        <a href="Inicio.html">
+            <button type="button" class="botao" onclick="validarFormulario(event)">Realizar Cadastro e Acessar site</button>
+          </a>    
+    </form>
+</body>
+</html>

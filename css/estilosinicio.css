@@ -1,0 +1,57 @@
+.body{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.hist{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(253, 255, 110);
+    text-wrap: balance;
+}
+
+.titulohist{
+    border: 1px solid black;
+    background-color: gold;
+    font-size: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+a {
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 1px 2px;
+    border-radius: 4px;
+    background-color: rgb(255, 228, 78);
+    }
+
+.cedula{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.moeda{
+    position: absolute;
+    top: -11px;
+    right: 0;
+}
+
+.footer{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    background-color: gold;
+}
